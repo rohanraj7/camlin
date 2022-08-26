@@ -1,0 +1,286 @@
+body {
+    margin: 0%;
+}
+
+header {
+    width: 100%
+}
+
+.header {
+    position: relative;
+    display: flex;
+    height: 80px;
+    padding-left: 230px;
+    padding-right: 150px;
+}
+
+.header img {
+    padding-top: 15px;
+    height: 50px;
+    width: 120px;
+}
+
+.nav-ul {
+    width: 100%;
+    padding: 14px;
+    padding-left: 28px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-li {
+    border-right: 3px solid #ea3628;
+    padding-right: 5px;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ea3628;
+}
+
+.nav-li:hover {
+    color: orange;
+}
+
+.social-div {
+    margin-left: -25px;
+    width: 33%;
+    position: relative;
+}
+
+.social-div ul {
+    list-style: none;
+}
+
+.social-icon {
+    padding: 6px;
+    display: inline;
+}
+
+.social-icon img {
+    height: 18px;
+    width: 10px;
+}
+
+.header2 {
+    background-color: #ea3628;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+.header2 img {
+    padding-left: 220px;
+    padding-top: 4px;
+}
+
+.header2 ul {
+    list-style: none;
+    display: flex;
+    margin-left: 235px;
+    margin-top: -33px;
+}
+
+.header2 ul li {
+    padding-right: 21px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'GothamHTFMedium', Calibri, Arial, Helvetica, sans-serif;
+    font-weight: 14px;
+
+}
+
+.header2 ul li:hover {
+    color: orange
+}
+
+.background-ban {
+    width: 100%;
+}
+
+.order {
+    display: flex;
+    left: 14%;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.hd2 {
+    left: 189px;
+    margin-top: 513px;
+    background: white;
+    height: 941px;
+    width: 1032px;
+    position: absolute;
+}
+
+.header2-inner {
+    background-color: orange;
+    margin-top: 424px;
+}
+
+.subheader {
+    /* padding: 50px; */
+    display: flex;
+}
+
+.sh1 {
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    padding-left: 100px;
+    ;
+    padding-top: 40px;
+
+}
+
+.small-para {
+    text-transform: capitalize;
+    color: darkslategrey;
+    margin-bottom: 10px;
+    font-family: 'GothamHTFBookRegular', Calibri, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+hr {
+    width: 100px;
+    border-bottom: 1px solid red;
+}
+
+.linear {
+    width: 300px;
+    color: #353535;
+    border-bottom: none;
+}
+
+.subbody img {
+    padding-left: 70px;
+    width: 250px;
+
+}
+
+.subbody ul {
+    display: flex;
+    margin-top: -36px;
+    ;
+}
+
+.subbody ul li {
+    padding-left: 80px;
+    width: 250px;
+    text-transform: uppercase;
+    list-style: none;
+    padding-bottom: -10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'GothamHTFMedium', Calibri, Arial, Helvetica, sans-serif;
+}
+
+.subbody2 img {
+    padding-left: 60px;
+}
+
+.first {
+    margin-bottom: 64px;
+    ;
+}
+
+.second {
+    padding-top: 5px;
+}
+
+.third {
+    padding-bottom: 239px;
+}
+
+.footerline {
+    width: 1029px;
+    color: aliceblue;
+    border-bottom: none;
+}
+
+.subfooter {
+    text-align: center;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    color: #353535;
+    font-size: 14px;
+}
+
+.mainfooter {
+    padding-top: 17px;
+    display: flex;
+    cursor: pointer;
+}
+
+.mainfooter a {
+    text-transform: uppercase;
+    padding-right: 40px;
+    padding-left: 56px;
+    font-size: 14px;
+    color: #383838;
+    font-weight: bold;
+    font-family: 'GothamHTFBookRegular', Calibri, Arial, Helvetica, sans-serif;
+}
+
+.mainfooter ul {
+    padding-left: 52px;
+}
+
+.mainfooter li {
+    list-style: none;
+    /* padding-top: 5px; */
+    font-family: 'GothamHTFBookRegular', Calibri, Arial, Helvetica, sans-serif;
+    color: #353535;
+    font-size: 14px;
+}
+
+.firstfoot {
+    margin-left: -781px;
+    padding: 10px;
+}
+
+.secondfoot {
+    margin-left: -21px;
+    padding-top: 10px;
+}
+
+.thirdfoot {
+    margin-left: -13px;
+    padding-top: 8px;
+}
+
+.fivethfoot {
+    margin-left: 87px;
+    padding-top: 8px;
+}
+
+
+
+
+.footer {
+    background-color: #fc4002;
+    height: 30px;
+    position: absolute;
+    margin-top: 139px;
+    width: 100%;
+}
+
+.footer ul {
+    margin-top: 9px;
+    height: 10px;
+    list-style: none;
+    padding-left: 21%;
+}
+
+.footer-terms {
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding-left: 3px;
+    color: white;
+    margin-bottom: 20px;
+    display: inline;
+    font-size: 12px;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
